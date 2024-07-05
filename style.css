@@ -89,7 +89,11 @@ body {
 }
 
 .chat-box{
-    width: 60%;
+    width: 30%;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 130px;
+    position: fixed;
     /* background: rgb(128, 64, 0); */
 }
 .all-users{  
@@ -104,4 +108,23 @@ body {
 .all-users {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+
+
+/* .chat-box{
+    width: 20%;
+    margin-left: 600px;
+    position: fixed;
+    background: #000;
+    display: grid;
+    place-items: center;
+    text-align: center;
+} */
+
+
+
+@media (min-width: 768px) {
+    .chat-users{
+        width: 100%;
+    }
 }
