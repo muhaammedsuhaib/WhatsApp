@@ -28,7 +28,7 @@ body {
 }
 
 .side-bar {
-    width: 50px;
+    width: 30px;
     background: whitesmoke;
     padding: 20px 10px;
     display: flex;
@@ -47,7 +47,13 @@ body {
 }
 
 .sidebar-icons {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
+    /* border-radius: 50px; */
+}
+
+
+hr{
+    margin-top: 50px;
 }
