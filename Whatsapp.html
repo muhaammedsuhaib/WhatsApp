@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container">
+            <img src="favicon.ico" height="45" alt="WhatsApp Logo" loading="lazy" />
+            <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WhatsApp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-1 bg-warning">
+            <section class="side-bar">
+                <div id="menu-toggle">
+                    <img src="menu.png" alt="Menu Icon" height="20px">
+                </div>
+                <div id="message-icon">
+                    <img src="message.png" alt="Message Icon" height="20px">
+                </div>
+                <div id="phone-icon">
+                    <img src="phone.png" alt="Phone Icon" height="20px">
+                </div>
+                <div id="status-icon">
+                    <img src="status.png" alt="Status Icon" height="20px">
+                </div>
+                <div id="stared-icon">
+                    <img src="stared.png" alt="Starred Icon" height="20px">
+                </div>
+                <div id="archive-icon">
+                    <img src="archive.png" alt="Archive Icon" height="20px">
+                </div>
+                <hr width="100%">
+                <div id="settings-icon">
+                    <img src="settings.png" alt="Settings Icon" height="20px">
+                </div>
+                <div id="profile-icon">
+                    <img src="profile.png" alt="Profile Icon" height="20px" style="border-radius: 50px;">
+                </div>
+            </section>
+        </div>
+
+        <div class="col-5 bg-success">
+            <div class="chat-user-box">
+                <div class="chat-nav">
+                    <div class="nav-content d-flex justify-content-between">
+                        <h3>Chats</h3>
+                        <div class="d-flex align-items-center">
+                            <img src="edit-icon.png" alt="Edit Icon" width="21px" class="me-3">
+                            <img src="filter.png" alt="Filter Icon" width="21px">
+                        </div>
+                    </div>
+                    <div class="mt-2 text-center">
+                        <input type="text" placeholder="Search or start a new chat" class="form-control" style="width: 98%; height: 22px; border-radius: 5px; border: 2px solid gray;">
+                    </div>
+                </div>
+                <div class="all-users">
+                    <div class="user">
+                        <img src="profile.png" alt="Profile Icon" class="sidebar-icons rounded-circle" style="width: 50px; height: 50px;">
+                        <h3>Suhaib</h3>
+                    </div>
+                    <!-- Repeat user divs for more users -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 bg-primary">
+            <div class="chat-box text-center">
+                <img src="whatsapp.png" alt="WhatsApp" width="150px">
+                <h1>WhatsApp</h1>
+                <p>We'd like to know your thoughts about this app. Please provide feedback by using the button located at the bottom left.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
+</body>
+</html>
